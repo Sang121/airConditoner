@@ -50,7 +50,18 @@ button {
   cursor: pointer;
 }
 .fade-in {
-  animation: fade-in 1.5s ease-in-out forwards;
+  animation: wind-animation 1.5s infinite
+}
+@keyframes wind-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .footer {
   margin-top: 1%;
@@ -100,4 +111,11 @@ fade-out {
     left: 70%;
     font-size: small;
   }
+}
+.footer {
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 243, 241);
 }

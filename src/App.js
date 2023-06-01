@@ -79,7 +79,7 @@ function App() {
         </div>
       </body>
       <footer className="footer">
-      <p className="src"> Điều hoà created by <a href="https:www.fb.com/libra245"> Sáng,giúp bạn mát trong lòng:))</a></p> <br/>
+      <p className="src"> Điều hoà created by <a href="https:www.fb.com/libra245"> Sáng</a>,giúp bạn mát trong lòng:))</p> 
 
     </footer>
     </div>

@@ -1,5 +1,4 @@
 a {
-  text-decoration: none;
   color: black !important;
 }
 .App {
@@ -50,7 +49,7 @@ button {
   cursor: pointer;
 }
 .fade-in {
-  animation: wind-animation 1.5s infinite
+  animation: wind-animation 1.5s infinite;
 }
 @keyframes wind-animation {
   0% {
@@ -63,12 +62,14 @@ button {
     opacity: 0;
   }
 }
+
 .footer {
   margin-top: 1%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blanchedalmond;
+
+  background-color: rgb(245, 243, 241);
 }
 
 @keyframes fade-in {
@@ -95,6 +96,7 @@ fade-out {
   .img {
     width: 100%;
   }
+
   .remote {
     top: none;
     width: 60%;
@@ -111,11 +113,7 @@ fade-out {
     left: 70%;
     font-size: small;
   }
-}
-.footer {
-  margin-top: 1%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(245, 243, 241);
+  .footer {
+    margin-top: 400px;
+  }
 }
